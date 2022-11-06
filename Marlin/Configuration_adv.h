@@ -1421,7 +1421,7 @@
 #endif // HAS_MARLINUI_MENU
 
 #if ANY(HAS_DISPLAY, DWIN_LCD_PROUI, DWIN_CREALITY_LCD_JYERSUI)
-  //#define SOUND_MENU_ITEM   // Add a mute option to the LCD menu
+  #define SOUND_MENU_ITEM   // Add a mute option to the LCD menu
   #define SOUND_ON_DEFAULT    // Buzzer/speaker default enabled state
 #endif
 
@@ -1437,7 +1437,7 @@
   #endif
 
   // Scroll a longer status message into view
-  //#define STATUS_MESSAGE_SCROLLING
+  #define STATUS_MESSAGE_SCROLLING
 
   // Apply a timeout to low-priority status messages
   //#define STATUS_MESSAGE_TIMEOUT_SEC 30 // (seconds)
